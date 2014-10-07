@@ -16,7 +16,7 @@ public class location2 {
         System.out.println("3) Door");
         System.out.println("Window");
     }
-    
+
     static void story(){
         if (locations.location2 == false){
             System.out.println("You enter the house and see a man at the table, staring at you and smiling.");

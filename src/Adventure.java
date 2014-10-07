@@ -1,16 +1,16 @@
 public class Adventure{
     public static int location = 1;
     public static void main(String[] args){
-	System.out.println("Are you ready to begin? (yes/no)");
+        System.out.println("Are you ready to begin? (yes/no)");
         inventory.inventory();
         input.input();
-	if (input.input.equals("yes")){
+        if (input.input.equals("yes")){
             boolean playing = true;
             System.out.println("Please enter your name:");
             String name;
             input.input();
             name = input.input;
-        System.out.flush();
+            System.out.flush();
             System.out.println("Here we go, "+ name);
             System.out.println("You wake up in a forest. You feel the cool breeze on your skin and smell the scent of pine in the air. In front of you lies a small house.");
             do{
