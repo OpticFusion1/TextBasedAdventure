@@ -10,7 +10,6 @@ public class Adventure{
             String name;
             input.input();
             name = input.input;
-        System.out.print(ANSI_CLS + ANSI_HOME);
         System.out.flush();
             System.out.println("Here we go, "+ name);
             System.out.println("You wake up in a forest. You feel the cool breeze on your skin and smell the scent of pine in the air. In front of you lies a small house.");
